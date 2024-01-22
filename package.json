@@ -1,12 +1,20 @@
 {
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --out-dir dist --public-url ./new-path/"
   },
   "dependencies": {
+    "json-server": "^1.0.0-alpha.22",
     "sass": "^1.70.0"
   },
   "devDependencies": {
-    "parcel": "^2.11.0"
+    "@babel/core": "^7.23.7",
+    "@parcel/transformer-sass": "^2.11.0",
+    "parcel": "^2.11.0",
+    "parcel-reporter-static-files-copy": "^1.5.3"
+  },
+  "staticFiles": {
+    "staticPath": "src/static"
   }
 }

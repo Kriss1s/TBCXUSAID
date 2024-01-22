@@ -1,0 +1,30 @@
+@use '../abstracts/variables' as *;
+
+.btn {
+  font-family: 'TBC-unusual';
+  cursor: pointer;
+  color: $btn-blue;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.get-more-btn {
+  font-weight: 900;
+}
+.course-btn {
+  display: flex;
+  //   justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  letter-spacing: 0px;
+  span {
+    display: inline-block;
+    color: $btn-blue;
+  }
+  .course-icon {
+    background-image: url('../assets/img/arrow.svg');
+    width: 16px;
+    height: 16px;
+    margin-right: 0.8em;
+  }
+}

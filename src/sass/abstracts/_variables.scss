@@ -1,0 +1,38 @@
+$bg-black: #222;
+$header-bg-black: #1a1e1f;
+$bg-grey: #2b2b2b;
+$bg-dark-black: #161616;
+$btn-blue: #00aef3;
+$btn-darker-blue: #00aeef;
+$header-blue: #00a3e0;
+$white: #f4f4f4;
+
+//fonts
+
+$TBC-regular: 'TBC-regular1';
+$TBC-bold: 'TBC-bold';
+$TBC-regular: 'TBC-regular';
+$TBC-bold: 'TBC-thin';
+$TBC-bold: 'TBC-unusual';
+
+@font-face {
+  font-family: 'TBC-regular1';
+  src: url('../static/TBC-regular-1.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TBC-bold';
+  src: url('../static/TBC-bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'TBC-regular';
+  src: url('../static/TBC-regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'TBC-thin';
+  src: url('../static/TBC-thin.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'TBC-unusual';
+  src: url('../static/TBC-unusual.ttf') format('truetype');
+}

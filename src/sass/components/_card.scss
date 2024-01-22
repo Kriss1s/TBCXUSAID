@@ -1,0 +1,26 @@
+.course {
+  border: 1px solid rgba(85, 85, 85, 1);
+  border-radius: 6px;
+  font-family: 'TBC-regular';
+  font-weight: 400;
+  margin-bottom: 1.6rem;
+  p {
+    font-size: 16px;
+    margin-bottom: 1.3rem;
+  }
+  h4 {
+    margin-bottom: 1rem;
+  }
+}
+
+.course-img-box {
+  display: flex;
+  flex-direction: column;
+  aspect-ratio: 2 / 1;
+  background-image: url(../assets/img/course-card-1.jpg);
+  border-radius: 6px 6px 0 0;
+}
+
+.course-info-wrapper {
+  padding: 2em 1.5em;
+}

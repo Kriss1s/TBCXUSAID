@@ -1,0 +1,10 @@
+@use '../abstracts/variables' as *;
+
+.site-header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $header-bg-black;
+  padding: 1.3rem 1.2rem;
+  font-family: 'TBC-regular';
+}

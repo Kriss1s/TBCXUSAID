@@ -1,0 +1,41 @@
+@use '../abstracts/variables' as *;
+.faq-qusetion-wrapper {
+  padding: 1rem 0;
+  border-bottom: 1px solid rgb(53, 49, 49);
+  transition: all ease 1s;
+  h6 {
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    line-height: 1.7rem;
+  }
+  //   max-height: auto;
+}
+.faq-question {
+  display: flex;
+  cursor: pointer;
+}
+.faq-answer {
+  margin-top: 1rem;
+  font-size: 16px;
+  //   transform: scaleY(1);
+  visibility: visible;
+  transition: all 1s ease;
+  max-height: 1000px;
+  -webkit-transition: max-height, 0.5s linear;
+  -moz-transition: max-height, 0.5s linear;
+  -ms-transition: max-height, 0.5s linear;
+  -o-transition: max-height, 0.5s linear;
+  transition: max-height, 0.5s linear, visibility 0.45s linear;
+}
+
+.hidden {
+  visibility: hidden;
+  max-height: 0;
+  -webkit-transition: max-height, 0.5s linear;
+  -moz-transition: max-height, 0.5s linear;
+  -ms-transition: max-height, 0.5s linear;
+  -o-transition: max-height, 0.5s linear;
+  transition: max-height, 0.5s linear, visibility 0.45s linear;
+}
+// @keyframes slideDown();

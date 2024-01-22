@@ -1,0 +1,56 @@
+@use '../abstracts' as *;
+.heading-container {
+  //   aspect-ratio: auto 320 / 217;
+
+  display: flex;
+  flex-direction: column;
+  //   justify-content: center;
+  align-items: center;
+  padding: 3.5rem 1rem 3.5rem;
+  //   background-color: red;
+  background-image: url(../assets/img/main-image.jpg);
+}
+.main-information-container,
+.carousel-container {
+  background-color: $bg-grey;
+  padding: 2rem 1rem;
+}
+.main-information-container {
+  .btn {
+    display: inline-block;
+    margin-top: 3rem;
+  }
+}
+.courses-container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  background-color: $bg-dark-black;
+
+  h2 {
+    margin: 1em 0;
+  }
+}
+
+.carousel-container {
+  //   border-bottom: 0.5px solid rgba(114, 110, 110, 0.219);
+  //   border-top: 1px solid rgba(85, 85, 85, 1);
+}
+.faq-container {
+  font-family: 'TBC-regular';
+  background-color: $bg-dark-black;
+  padding: 3rem 1.5rem;
+  line-height: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h5 {
+    margin-bottom: 2rem;
+  }
+  .btn {
+    margin-top: 4rem;
+    font-weight: 900;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,42 @@
+@use '../abstracts' as *;
+
+body {
+  color: $white;
+  background-color: $bg-black;
+  letter-spacing: normal;
+  font-family: 'TBC-regular1';
+}
+h2,
+h4,
+p {
+  font-family: 'TBC-thin';
+}
+h1 {
+  font-size: 27px;
+  font-family: 'TBC-bold';
+  line-height: 2.7rem;
+}
+h2 {
+  font-size: 27px;
+}
+h3 {
+  font-size: 21px;
+}
+h4 {
+  font-size: 17px;
+}
+h5 {
+  font-size: 24px;
+  line-height: 1.7rem;
+}
+h6 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.9rem;
+}
+.img-background {
+  background-size: cover;
+}
