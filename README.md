@@ -1,6 +1,6 @@
 # TBC X USAID
 
-![Project Logo](./src/img/logo.svg)
+![Project Logo](./src/assets/img/logo.svg)
 
 Visit official website to explore courses and start your journey in the dynamic world of technology.
 

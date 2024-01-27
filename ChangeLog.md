@@ -39,3 +39,9 @@ All notable changes to this project will be documented in this file.
 ### FIXED:
 
 - styles
+
+## [0.2.1] - 25.01.2024
+
+### FIXED:
+
+- package.json
