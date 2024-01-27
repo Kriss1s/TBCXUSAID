@@ -1,17 +1,22 @@
 @use '../abstracts/variables' as *;
 
 .btn {
-  font-family: 'TBC-unusual';
+  font-family: $TBC-regular;
   cursor: pointer;
   color: $btn-blue;
   letter-spacing: 1px;
   text-decoration: none;
   font-size: 17px;
+  &:hover {
+    color: rgb(179, 177, 177);
+  }
+  transition: color 0.3s ease;
 }
 .get-more-btn {
   font-weight: 900;
 }
 .course-btn {
+  font-family: $TBC-regular;
   display: flex;
   //   justify-content: center;
   align-items: center;
@@ -20,7 +25,12 @@
   span {
     display: inline-block;
     color: $btn-blue;
+    transition: color 0.3s ease;
+    &:hover {
+      color: #0476a3;
+    }
   }
+
   .course-icon {
     background-image: url('../assets/img/arrow.svg');
     width: 16px;

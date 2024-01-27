@@ -22,7 +22,7 @@
     .partner {
       animation-name: appear;
     }
-    min-height: 600px;
+    min-height: 400px;
   }
   flex-direction: column;
   @include for-tablet-landscape-up {
@@ -83,16 +83,12 @@
     width: 6px;
     padding: 0;
     height: 6px;
-    // aspect-ratio: 1/1;
     margin: 0 6px;
     border-radius: 50%;
 
     cursor: pointer;
     &:hover {
       background-color: rgba(255, 255, 255, 0.5);
-    }
-    &.active {
-      background-color: rgba(170, 6, 6, 0.5);
     }
   }
 }

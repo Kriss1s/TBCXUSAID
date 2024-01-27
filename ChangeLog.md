@@ -45,3 +45,10 @@ All notable changes to this project will be documented in this file.
 ### FIXED:
 
 - package.json
+
+## [0.2.2] - 27.01.2024
+
+### FIXED:
+
+- humburger menu
+- menu animation
