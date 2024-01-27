@@ -1,142 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TBC x USAID</title>
-    <link
-      rel="shortcut icon"
-      type="image/png"
-      href="src/assets/img/favicon.png"
-    />
+    <link rel="shortcut icon" type="image/png" href="src/assets/img/favicon.png" />
     <link rel="stylesheet" href="src/sass/main.scss" />
-  </head>
-  <body>
-    <header class="site-header-wrapper">
-      <div class="site-logo">
-        <a href="#">
-          <img src="/src/assets/img/logo.svg" alt="" />
-        </a>
-      </div>
-      <div>X</div>
+</head>
+
+<body>
+    <header class="site-header-container">
+        <div class="site-header-wrapper max-width">
+            <div class="site-logo">
+                <a href="#">
+                    <img src="/src/assets/img/logo.svg" alt="" />
+                </a>
+            </div>
+            <nav class="horizontal-nav nav">
+                <a href="#" class="navigation-link">მთავარი</a>
+                <a href="#" class="navigation-link">TBC IT</a>
+                <a href="#" class="active navigation-link">TBC x USAID</a>
+                <a href="#" class="navigation-link">რისკები</a>
+            </nav>
+            <div class="hamburger-menu">
+                <input type="checkbox" id="menu_checkbox" />
+                <label for="menu_checkbox">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </label>
+            </div>
+        </div>
     </header>
     <main>
-      <section class="heading-container img-background">
-        <h1>TBC x USAID <br />ᲢᲔᲥᲜᲝᲚᲝᲒᲘᲣᲠᲘ ᲒᲐᲜᲐᲗᲚᲔᲑᲘᲡᲗᲕᲘᲡ</h1>
-      </section>
-      <section class="main-information-container">
-        <p>
-          „ TBC x USAID - ტექნოლოგიური განათლებისთვის “ პროგრამა საინფორმაციო
-          ტექნოლოგიებით დაინტერესებულ ადამიანებს გთავაზობთ სრულად დაფინანსებულ
-          ონლაინ საგანმანათლებლო პრაქტიკულ კურსებს სხვადასხვა ICT მიმართულებით.
-          წარმატებულ კურსდამთავრებულებს ეძლევათ შესაძლებლობა დასაქმდნენ თიბისისა
-          და მის პარტნიორ კომპანიებში.
-        </p>
-        <a href="#" class="get-more-btn btn">გაიგე მეტი</a>
-      </section>
-      <section class="courses-container">
-        <h2>სასწავლო კურსები</h2>
-        <div class="courses-wrapper">
-          <div class="course">
-            <!-- <img src="" alt="" /> -->
-            <div class="course-img-box img-background"></div>
-            <div class="course-info-wrapper">
-              <h4 class="course-name">iOS Development</h4>
-              <p class="course-state">რეგისტრაცია დასრულებულია</p>
-              <a href="#" class="btn course-btn"
-                ><span class="course-icon"></span>
-                <span>კურსის დეტალები</span></a
-              >
+        <section class="heading-container img-background">
+            <div class="max-width">
+                <h1 class="">TBC x USAID <br />ᲢᲔᲥᲜᲝᲚᲝᲒᲘᲣᲠᲘ ᲒᲐᲜᲐᲗᲚᲔᲑᲘᲡᲗᲕᲘᲡ</h1>
             </div>
-          </div>
+        </section>
+        <section class="main-information-container">
+            <div class="max-width">
+                <p class="">
+                    „ TBC x USAID - ტექნოლოგიური განათლებისთვის “ პროგრამა საინფორმაციო
+                    ტექნოლოგიებით დაინტერესებულ ადამიანებს გთავაზობთ სრულად დაფინანსებულ
+                    ონლაინ საგანმანათლებლო პრაქტიკულ კურსებს სხვადასხვა ICT
+                    მიმართულებით. წარმატებულ კურსდამთავრებულებს ეძლევათ შესაძლებლობა
+                    დასაქმდნენ თიბისისა და მის პარტნიორ კომპანიებში.
+                </p>
+                <a href="#" class="get-more-btn btn">გაიგე მეტი</a>
+            </div>
+        </section>
+        <section class="courses-container">
+            <div class="courses-outside-wrapper max-width">
+                <h2>სასწავლო კურსები</h2>
+                <div class="courses-wrapper">
+                    <div class="course">
+                        <!-- <img src="" alt="" /> -->
+                        <div class="course-img-box img-background course-img-box-ios"></div>
+                        <div class="course-info-wrapper">
+                            <h4 class="course-name">iOS Development</h4>
+                            <p class="course-state">რეგისტრაცია დასრულებულია</p>
+                            <a href="#" class="btn course-btn"><span class="course-icon"></span>
+                                <span>კურსის დეტალები</span></a>
+                        </div>
+                    </div>
 
-          <div class="course">
-            <!-- <img src="" alt="" /> -->
-            <div class="course-img-box img-background"></div>
-            <div class="course-info-wrapper">
-              <h4 class="course-name">iOS Development</h4>
-              <p class="course-state">რეგისტრაცია დასრულებულია</p>
-              <a href="#" class="btn course-btn"
-                ><span class="course-icon"></span>
-                <span>კურსის დეტალები</span></a
-              >
-            </div>
-          </div>
+                    <div class="course">
+                        <!-- <img src="" alt="" /> -->
+                        <div class="course-img-box img-background course-img-box-react"></div>
+                        <div class="course-info-wrapper">
+                            <h4 class="course-name">React</h4>
+                            <p class="course-state">რეგისტრაცია დასრულებულია</p>
+                            <a href="#" class="btn course-btn"><span class="course-icon"></span>
+                                <span>კურსის დეტალები</span></a>
+                        </div>
+                    </div>
 
-          <div class="course">
-            <!-- <img src="" alt="" /> -->
-            <div class="course-img-box img-background"></div>
-            <div class="course-info-wrapper">
-              <h4 class="course-name">iOS Development</h4>
-              <p class="course-state">რეგისტრაცია დასრულებულია</p>
-              <a href="#" class="btn course-btn"
-                ><span class="course-icon"></span>
-                <span>კურსის დეტალები</span></a
-              >
+                    <div class="course">
+                        <!-- <img src="" alt="" /> -->
+                        <div class="course-img-box img-background course-img-box-intro-python"></div>
+                        <div class="course-info-wrapper">
+                            <h4 class="course-name">Intro to Python</h4>
+                            <p class="course-state">რეგისტრაცია დასრულებულია</p>
+                            <a href="#" class="btn course-btn"><span class="course-icon"></span>
+                                <span>კურსის დეტალები</span></a>
+                        </div>
+                    </div>
+
+                    <div class="course">
+                        <!-- <img src="" alt="" /> -->
+                        <div class="course-img-box img-background course-img-box-python"></div>
+                        <div class="course-info-wrapper">
+                            <h4 class="course-name">Advanced Python</h4>
+                            <p class="course-state">რეგისტრაცია დასრულებულია</p>
+                            <a href="#" class="btn course-btn"><span class="course-icon"></span>
+                                <span>კურსის დეტალები</span></a>
+                        </div>
+                    </div>
+
+                    <div class="course">
+                        <!-- <img src="" alt="" /> -->
+                        <div class="course-img-box img-background course-img-box-cybersecurity"></div>
+                        <div class="course-info-wrapper">
+                            <h4 class="course-name">Advanced Cybersecurity Course</h4>
+                            <p class="course-state">რეგისტრაცია დასრულებულია</p>
+                            <a href="#" class="btn course-btn"><span class="course-icon"></span>
+                                <span>კურსის დეტალები</span></a>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <!-- <img src="" alt="" /> -->
+                        <div class="course-img-box img-background course-img-box-tot"></div>
+                        <div class="course-info-wrapper">
+                            <h4 class="course-name">ToT - Training of Trainers</h4>
+                            <p class="course-state">რეგისტრაცია დასრულებულია</p>
+                            <a href="#" class="btn course-btn"><span class="course-icon"></span>
+                                <span>კურსის დეტალები</span></a>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <!-- <img src="" alt="" /> -->
+                        <div class="course-img-box img-background course-img-box-blockchain"></div>
+                        <div class="course-info-wrapper">
+                            <h4 class="course-name">Blockchain</h4>
+                            <p class="course-state">რეგისტრაცია დასრულებულია</p>
+                            <a href="#" class="btn course-btn"><span class="course-icon"></span>
+                                <span>კურსის დეტალები</span></a>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <!-- <img src="" alt="" /> -->
+                        <div class="course-img-box img-background course-img-box-devops"></div>
+                        <div class="course-info-wrapper">
+                            <h4 class="course-name">DevOps</h4>
+                            <p class="course-state">რეგისტრაცია დასრულებულია</p>
+                            <a href="#" class="btn course-btn"><span class="course-icon"></span>
+                                <span>კურსის დეტალები</span></a>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <!-- <img src="" alt="" /> -->
+                        <div class="course-img-box img-background course-img-box-informationsecurity"></div>
+                        <div class="course-info-wrapper">
+                            <h4 class="course-name">Information Security Governance</h4>
+                            <p class="course-state">რეგისტრაცია დასრულებულია</p>
+                            <a href="#" class="btn course-btn"><span class="course-icon"></span>
+                                <span>კურსის დეტალები</span></a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="carousel-container-wrapper">
+            <div class="max-width carousel-inner">
+                <h3 class="">პროექტის პარტნიორები</h3>
+            </div> 
+            <div class="carousel-container">
+                <div class="carousel">
+                  <div class="slide active">
+                    <div class="usaid partner"></div>
+                    <div class="space partner"></div>
+                    <div class="tineti partner"></div>
+                  </div>
+                  <div class="slide">
+                    <div class="tegeta partner"></div>
+                    <div class="spectre partner"></div>
+                    <div class="lizing partner"></div>
+                  </div>
+                  <div class="slide">
+                    <div class="ufc partner"></div>
+                  </div>
+                </div>
+                <div class="carousel-nav">
+                    <button class="prev">  </button>
+                    <button class="next">  </button>
+                </div>
+                <div class="carousel-indicators">
+                    <button class="indicator" data-slide-to="0"></button>
+                    <button class="indicator" data-slide-to="1"></button>
+                    <button class="indicator" data-slide-to="2"></button>
+                </div>
+              </div>
+            <!-- </div> -->
+        </section>
+
+        <section class="faq-container">
+            <div class="faq-container-inner max-width">
+                <h5>ხშირად დასმული კითხვები</h5>
+                <div class="faq-questions-wrapper">
+                    
+                </div>
+                <a href="#" class="btn">ყველა კითხვა</a>
             </div>
-          </div>
+            </div>
+        </section>
+        <div class="navigation-background hidden-navbar">
+            <nav class="vertical-nav nav">
+                <a href="#" class="navigation-link">მთავარი</a>
+                <a href="#" class="navigation-link">TBC IT</a>
+                <a href="#" class="active navigation-link">TBC x USAID</a>
+                <a href="#" class="navigation-link">რისკები</a>
+            </nav>
         </div>
-      </section>
-
-      <section class="carousel-container">
-        <h3>პროექტის პარტნიორები</h3>
-        <div class="carousel"></div>
-      </section>
-
-      <section class="faq-container">
-        <h5>ხშირად დასმული კითხვები</h5>
-        <div class="faq-questions-wrapper">
-          <div class="faq-qusetion-wrapper">
-            <div class="faq-question">
-              <h6>როგორ ხდება კურსებზე რეგისტრაცია და შერჩევა?</h6>
-              <span class="icon"
-                ><img src="src/assets/img/arrow-down.svg" alt=""
-              /></span>
-            </div>
-            <p class="faq-answer">
-              TBC X USAID ტექნოლოგიური განათლებისთვის პროგრამაში თითოეულ
-              კანდიდატს აქვს მხოლოდ ერთი კურსის გავლის შესაძლებლობა. გარდა
-              Information Security და Python კურსებისა, სადაც Basic დონის გავლის
-              შემდეგ შესაძლებელია სწავლის გაგრძელება Advance დონეზე.
-            </p>
-          </div>
-
-          <div class="faq-qusetion-wrapper">
-            <div class="faq-question">
-              <h6>როგორ ხდება კურსებზე რეგისტრაცია და შერჩევა?</h6>
-              <span class="icon"
-                ><img src="src/assets/img/arrow-down.svg" alt=""
-              /></span>
-            </div>
-            <p class="faq-answer">
-              TBC X USAID ტექნოლოგიური განათლებისთვის პროგრამაში თითოეულ
-              კანდიდატს აქვს მხოლოდ ერთი კურსის გავლის შესაძლებლობა. გარდა
-              Information Security და Python კურსებისა, სადაც Basic დონის გავლის
-              შემდეგ შესაძლებელია სწავლის გაგრძელება Advance დონეზე.
-            </p>
-          </div>
-        </div>
-        <a href="#" class="btn">ყველა კითხვა</a>
-      </section>
     </main>
     <footer>
-      <div class="footer-logo">
-        <img src="src/assets/img/tbc-only-logo.svg" alt="" />
-      </div>
-      <p class="copyrights"><span>© 2023 </span>ყველა უფლება დაცულია</p>
-      <p class="rules">წესები და პირობები</p>
-      <div class="social-media-btns-wrapper">
-        <a href="https://www.facebook.com/tbcbank/">
-          <img src="src/assets/img/fb.svg" alt=""
-        /></a>
-        <a href="https://www.youtube.com/channel/UCGk9R2LV2ywOL80r8Xc6xtQ">
-          <img src="src/assets/img/youtube.svg" alt=""
-        /></a>
-      </div>
-      <div>
-        <button class="rounded-btn">მოგვწერეთ</button>
-      </div>
+        <div class="footer-container max-width">
+            <div class="footer-logo">
+            
+            </div>
+            
+            <form action="mailto:tbc@gmail.com" class="btn-wrapper">
+                <button class="rounded-btn" >მოგვწერეთ</button>
+            </form>
+            
+            <div class="social-media-btns-wrapper">
+                <a class="footer-icon fb-logo" href="https://www.facebook.com/tbcbank/">
+                    </a>
+                <a class="footer-icon youtube-logo" href="https://www.youtube.com/channel/UCGk9R2LV2ywOL80r8Xc6xtQ">
+                    </a>
+            </div>
+           <div class="copyrights-wrapper">
+            <p class="rules">წესები და პირობები</p>
+            <p class="copyrights"><span>© 2023 </span>ყველა უფლება დაცულია</p>
+            
+           </div>
+        </div>
+        
+        
     </footer>
-  </body>
-  <script type="module" src="src/js/controller.js"></script>
+</body>
+<script type="module" src="src/js/controller.js"></script>
+
 </html>

@@ -2,10 +2,9 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --out-dir dist --public-url ./new-path/"
+    "build": "parcel build index.html --out-dir dist "
   },
   "dependencies": {
-    "json-server": "^1.0.0-alpha.22",
     "sass": "^1.70.0"
   },
   "devDependencies": {

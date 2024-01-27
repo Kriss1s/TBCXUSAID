@@ -1,24 +1,40 @@
-@use '../abstracts/variables' as *;
-.faq-qusetion-wrapper {
+@use '../abstracts' as *;
+.faq-question-wrapper {
   padding: 1rem 0;
   border-bottom: 1px solid rgb(53, 49, 49);
   transition: all ease 1s;
   h6 {
     display: flex;
-    // justify-content: center;
     align-items: center;
     line-height: 1.7rem;
   }
-  //   max-height: auto;
 }
 .faq-question {
+  width: 100%;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   cursor: pointer;
+  h6 {
+    width: 90%;
+  }
+  .icon {
+    background-image: url('../assets/img/arrow-down.svg');
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s ease;
+  }
+}
+.reversed {
+  .icon {
+    transform: rotate(180deg);
+  }
 }
 .faq-answer {
   margin-top: 1rem;
   font-size: 16px;
-  //   transform: scaleY(1);
   visibility: visible;
   transition: all 1s ease;
   max-height: 1000px;
@@ -27,15 +43,16 @@
   -ms-transition: max-height, 0.5s linear;
   -o-transition: max-height, 0.5s linear;
   transition: max-height, 0.5s linear, visibility 0.45s linear;
+  overflow: hidden;
 }
 
 .hidden {
   visibility: hidden;
   max-height: 0;
+  overflow: hidden;
   -webkit-transition: max-height, 0.5s linear;
   -moz-transition: max-height, 0.5s linear;
   -ms-transition: max-height, 0.5s linear;
   -o-transition: max-height, 0.5s linear;
   transition: max-height, 0.5s linear, visibility 0.45s linear;
 }
-// @keyframes slideDown();

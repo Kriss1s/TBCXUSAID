@@ -12,8 +12,7 @@ $white: #f4f4f4;
 $TBC-regular: 'TBC-regular1';
 $TBC-bold: 'TBC-bold';
 $TBC-regular: 'TBC-regular';
-$TBC-bold: 'TBC-thin';
-$TBC-bold: 'TBC-unusual';
+$TBC-thin: 'TBC-thin';
 
 @font-face {
   font-family: 'TBC-regular1';
@@ -31,8 +30,4 @@ $TBC-bold: 'TBC-unusual';
 @font-face {
   font-family: 'TBC-thin';
   src: url('../static/TBC-thin.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'TBC-unusual';
-  src: url('../static/TBC-unusual.ttf') format('truetype');
 }

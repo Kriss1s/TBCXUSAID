@@ -1,0 +1,146 @@
+@use '../abstracts' as *;
+.carousel-container {
+  margin-top: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  flex: 1 0 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  &.active {
+    display: flex;
+    .partner {
+      animation-name: appear;
+    }
+    min-height: 600px;
+  }
+  flex-direction: column;
+  @include for-tablet-landscape-up {
+    flex-direction: row;
+    &.active {
+      min-height: auto;
+    }
+  }
+}
+
+.carousel-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: none;
+  justify-content: space-between;
+  padding: 0 20px;
+  button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    width: 3rem;
+    height: 3rem;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    &:hover {
+      filter: brightness(70%);
+    }
+  }
+  @include for-tablet-landscape-up {
+    display: flex;
+  }
+  .prev {
+    background-image: url('../assets/img/next.svg');
+  }
+  .next {
+    background-image: url('../assets/img/next.svg');
+    transform: rotate(180deg);
+  }
+}
+
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem 0 0 0;
+  margin-top: 1rem;
+  .indicator {
+    background-color: rgba(0, 0, 0, 0.3);
+    background-color: $white;
+    border: none;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    box-sizing: content-box;
+    font-size: 2px;
+    width: 6px;
+    padding: 0;
+    height: 6px;
+    // aspect-ratio: 1/1;
+    margin: 0 6px;
+    border-radius: 50%;
+
+    cursor: pointer;
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+    &.active {
+      background-color: rgba(170, 6, 6, 0.5);
+    }
+  }
+}
+.partner {
+  aspect-ratio: 4/2;
+  // background-color: red;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  width: 80%;
+  animation-duration: 1s;
+  animation-fill-mode: backwards;
+  @include for-tablet-landscape-up {
+    width: 32%;
+    margin-right: 2%;
+    &:nth-of-type(3n) {
+      margin-right: 0;
+    }
+  }
+}
+.usaid {
+  background-image: url('../assets/img/usaid.png');
+}
+
+.spectre {
+  background-image: url('../assets/img/spectre.png');
+}
+.space {
+  background-image: url('../assets/img/space.png');
+}
+.tegeta {
+  background-image: url('../assets/img/tegeta.png');
+}
+.tineti {
+  background-image: url('../assets/img/tineti.png');
+}
+.lizing {
+  background-image: url('../assets/img/lizing.png');
+}
+.ufc {
+  background-image: url('../assets/img/ufc.png');
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
+}
