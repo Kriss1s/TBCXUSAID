@@ -4,7 +4,7 @@
 
 Visit official website to explore courses and start your journey in the dynamic world of technology.
 
-![Live](https://tbc-x-usaid.netlify.app/)
+[Live](https://tbc-x-usaid.netlify.app/)
 
 ## 🛠️ Technologies Used
 
