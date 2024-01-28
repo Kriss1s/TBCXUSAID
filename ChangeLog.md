@@ -50,5 +50,18 @@ All notable changes to this project will be documented in this file.
 
 ### FIXED:
 
-- humburger menu
+- hamburger menu
 - menu animation
+
+## [0.2.3] - 27.01.2024
+
+### FIXED:
+
+- hamburger menu
+- menu animation
+
+## [1.0.0] - 28.01.2024
+
+### FIXED:
+
+- Release version 1.0.0
